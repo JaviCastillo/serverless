@@ -7,7 +7,7 @@ provider:
   memorySize: 512
   timeout: 15
   iam:
-    role: arn:aws:iam::911545955675:role/LabRole
+    role: arn:aws:iam::758741975548:role/LabRole
   environment:
     MAIN_CLASS: duoc.cl.serverless.ServerlessApplication
     MENSAJE_REMOTO: ${env:MENSAJE_REMOTO, 'Valor por defecto'}
